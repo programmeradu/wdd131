@@ -6,6 +6,9 @@
     <title>WDD 131: Dynamic Web Fundamentals - Samuel Adu-Berekorang</title>
     <meta name="description" content="Course home page for Samuel Adu-Berekorang in WDD 131: Dynamic Web Fundamentals at BYU-Pathway Worldwide.">
     <meta name="author" content="Samuel Adu-Berekorang">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js" defer></script>
 </head>
@@ -26,15 +29,15 @@
     </header>
 
     <main>
-        <section class="card-grid">
+        <div class="card-grid">
             <!-- About Me Card -->
             <section class="card about-card">
                 <h3>About Me</h3>
                 <div class="profile-container">
-                    <div class="profile-placeholder" aria-label="Initials">SAB</div>
+                    <img src="images/profile.jpg" alt="Samuel Adu-Berekorang" class="profile-img" width="150" height="150" loading="lazy">
                     <div class="profile-text">
-                        <p>Hello! My name is <strong>Samuel Adu-Berekorang</strong>. I am a student at BYU-Pathway Worldwide studying software engineering and web development.</p>
-                        <p>I am originally from Ghana and currently living in Nicosia, Cyprus. I enjoy learning dynamic frontend technologies, structuring responsive web layouts, and building useful tools for communities.</p>
+                        <p>Hello! My name is <strong>Samuel Adu-Berekorang</strong>. I am a software engineering student at BYU-Pathway Worldwide.</p>
+                        <p>I enjoy learning modern frontend development, building responsive layouts, and writing modular code. In my free time, I love working through coding challenges and collaborating with peers.</p>
                     </div>
                 </div>
             </section>
@@ -44,24 +47,25 @@
                 <h3>Web Resources</h3>
                 <p>Helpful resources and documentation I use during this course:</p>
                 <ul class="resource-list">
-                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN HTML Reference</a> - Comprehensive guide to semantic HTML elements.</li>
-                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener">MDN CSS Guide</a> - Layouts, Flexbox, CSS Grid, and responsive design.</li>
-                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener">JavaScript Basics</a> - DOM manipulation, events, and dynamic content.</li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN HTML Reference</a> - Semantic HTML structure.</li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener">MDN CSS Guide</a> - Flexbox, Grid, and layouts.</li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener">JavaScript Basics</a> - DOM and events.</li>
                 </ul>
             </section>
 
             <!-- Location Card -->
             <section class="card location-card">
                 <h3>Nicosia, Cyprus</h3>
-                <p>Nicosia is the capital and largest city of Cyprus, located near the center of the Mesaoria plain on the banks of the Pedieos river.</p>
+                <img src="images/nicosia.jpg" alt="View of Nicosia, Cyprus" class="location-img" width="300" height="180" loading="lazy">
+                <p>Nicosia is the capital and largest city of Cyprus, located near the center of the Mesaoria plain.</p>
                 <ul class="info-list">
                     <li><strong>Country:</strong> Cyprus</li>
                     <li><strong>Region:</strong> Mediterranean</li>
-                    <li><strong>Climate:</strong> Semi-arid with hot, dry summers and mild winters</li>
-                    <li><strong>Highlights:</strong> Ancient Venetian walls, historic Old Town, and vibrant university culture</li>
+                    <li><strong>Climate:</strong> Hot, dry summers and mild winters</li>
+                    <li><strong>Key Features:</strong> Venetian walls and rich cultural heritage</li>
                 </ul>
             </section>
-        </section>
+        </div>
     </main>
 
     <footer>
