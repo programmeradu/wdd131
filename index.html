@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131: Home Page - Samuel Adu-Berekorang</title>
+    <meta name="description" content="Home Page for Samuel Adu-Berekorang in WDD 131: Dynamic Web Fundamentals.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>WDD 131: Dynamic Web Fundamentals</h1>
+            <h2>Samuel Adu-Berekorang</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="https://aloya.cy" target="_blank">Aloya</a></li>
+                <li><a href="https://vuneli.com" target="_blank">Vuneli</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card-grid">
+            <!-- About Me Card -->
+            <div class="card about-card">
+                <h3>About Me</h3>
+                <div class="profile-container">
+                    <div class="profile-placeholder">SAB</div>
+                    <div class="profile-text">
+                        <p>Hello! My name is <strong>Samuel Adu-Berekorang</strong>. I am a passionate software engineer and entrepreneur originally from Ghana, currently living in Nicosia, Cyprus.</p>
+                        <p>I am pursuing my Bachelor's degree while simultaneously founding startups that aim to revolutionize public transit and sustainability. In my free time, I love building applications that solve real-world problems.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- My Startups Card -->
+            <div class="card projects-card">
+                <h3>My Initiatives</h3>
+                <div class="project-item">
+                    <h4>🚍 Aloya.cy</h4>
+                    <p>A unified, bilingual mobility operating system for Cyprus to plan journeys, track real-time bus timetables, and simplify commuting.</p>
+                </div>
+                <div class="project-item">
+                    <h4>🌱 Vuneli.com</h4>
+                    <p>An AI-powered sustainability reporting and footprint analysis platform designed specifically for Mediterranean SMEs.</p>
+                </div>
+            </div>
+
+            <!-- Cyprus Card -->
+            <div class="card location-card">
+                <h3>Nicosia, Cyprus</h3>
+                <p>Nicosia (Lefkosia) is the historic, vibrant capital of Cyprus and the only remaining divided capital city in the world. It merges a rich cultural history with a rapidly expanding digital and tech ecosystem.</p>
+                <ul class="info-list">
+                    <li><strong>Country:</strong> Cyprus</li>
+                    <li><strong>Language:</strong> Greek, Turkish, English</li>
+                    <li><strong>Climate:</strong> Mediterranean (Hot, dry summers and mild winters)</li>
+                    <li><strong>AI Target:</strong> Cyprus is actively positioning itself as a major global hub for AI and digital innovation.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Samuel Adu-Berekorang | Nicosia, Cyprus</p>
+        <p class="last-modified">Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
