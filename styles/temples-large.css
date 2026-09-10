@@ -1,0 +1,37 @@
+/* Larger screen styles for Temple Picture Album */
+
+@media (min-width: 640px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.2rem 2rem;
+    }
+
+    .header-container {
+        margin-bottom: 0;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #nav-bar {
+        display: block !important;
+        margin-top: 0;
+    }
+
+    #nav-bar ul {
+        flex-direction: row;
+        gap: 1.2rem;
+    }
+
+    #nav-bar a {
+        padding: 0.5rem 1rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 2rem;
+    }
+}

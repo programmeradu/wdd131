@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album - WDD 131 - Samuel Adu-Berekorang</title>
+    <meta name="description" content="A responsive temple picture album featuring modern CSS layouts, hamburger navigation, and dynamic DOM manipulation for WDD 131.">
+    <meta name="author" content="Samuel Adu-Berekorang">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css">
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h2>Temple Album</h2>
+            <button id="menu" aria-label="Toggle navigation menu">&#9776;</button>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+        <section class="gallery">
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/accra-ghana-temple/accra-ghana-temple-13760-main.jpg" alt="Accra Ghana Temple" loading="lazy" width="400" height="250">
+                <figcaption>Accra Ghana Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg" alt="Salt Lake Temple" loading="lazy" width="400" height="250">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-3545-main.jpg" alt="Rome Italy Temple" loading="lazy" width="400" height="250">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/paris-france-temple/paris-france-temple-2056-main.jpg" alt="Paris France Temple" loading="lazy" width="400" height="250">
+                <figcaption>Paris France Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/tokyo-japan-temple/tokyo-japan-temple-26340-main.jpg" alt="Tokyo Japan Temple" loading="lazy" width="400" height="250">
+                <figcaption>Tokyo Japan Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/bern-switzerland-temple/bern-switzerland-temple-54641-main.jpg" alt="Bern Switzerland Temple" loading="lazy" width="400" height="250">
+                <figcaption>Bern Switzerland Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/london-england-temple/london-england-temple-4355-main.jpg" alt="London England Temple" loading="lazy" width="400" height="250">
+                <figcaption>London England Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/frankfurt-germany-temple/frankfurt-germany-temple-16001-main.jpg" alt="Frankfurt Germany Temple" loading="lazy" width="400" height="250">
+                <figcaption>Frankfurt Germany Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="https://churchofjesuschristtemples.org/assets/img/temples/johannesburg-south-africa-temple/johannesburg-south-africa-temple-22475-main.jpg" alt="Johannesburg South Africa Temple" loading="lazy" width="400" height="250">
+                <figcaption>Johannesburg South Africa Temple</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Samuel Adu-Berekorang | Nicosia, Cyprus</p>
+        <p class="last-modified">Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
