@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131: Home Page - Samuel Adu-Berekorang</title>
-    <meta name="description" content="Home Page for Samuel Adu-Berekorang in WDD 131: Dynamic Web Fundamentals.">
+    <title>WDD 131: Dynamic Web Fundamentals - Samuel Adu-Berekorang</title>
+    <meta name="description" content="Course home page for Samuel Adu-Berekorang in WDD 131: Dynamic Web Fundamentals at BYU-Pathway Worldwide.">
+    <meta name="author" content="Samuel Adu-Berekorang">
     <link rel="stylesheet" href="styles.css">
     <script src="scripts.js" defer></script>
 </head>
@@ -17,8 +18,9 @@
         <nav>
             <ul>
                 <li><a href="#" class="active">Home</a></li>
-                <li><a href="https://aloya.cy" target="_blank">Aloya</a></li>
-                <li><a href="https://vuneli.com" target="_blank">Vuneli</a></li>
+                <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com" target="_blank" rel="noopener">W3Schools</a></li>
+                <li><a href="https://github.com/programmeradu" target="_blank" rel="noopener">GitHub</a></li>
             </ul>
         </nav>
     </header>
@@ -26,41 +28,39 @@
     <main>
         <section class="card-grid">
             <!-- About Me Card -->
-            <div class="card about-card">
+            <section class="card about-card">
                 <h3>About Me</h3>
                 <div class="profile-container">
-                    <div class="profile-placeholder">SAB</div>
+                    <div class="profile-placeholder" aria-label="Initials">SAB</div>
                     <div class="profile-text">
-                        <p>Hello! My name is <strong>Samuel Adu-Berekorang</strong>. I am a passionate software engineer and entrepreneur originally from Ghana, currently living in Nicosia, Cyprus.</p>
-                        <p>I am pursuing my Bachelor's degree while simultaneously founding startups that aim to revolutionize public transit and sustainability. In my free time, I love building applications that solve real-world problems.</p>
+                        <p>Hello! My name is <strong>Samuel Adu-Berekorang</strong>. I am a student at BYU-Pathway Worldwide studying software engineering and web development.</p>
+                        <p>I am originally from Ghana and currently living in Nicosia, Cyprus. I enjoy learning dynamic frontend technologies, structuring responsive web layouts, and building useful tools for communities.</p>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <!-- My Startups Card -->
-            <div class="card projects-card">
-                <h3>My Initiatives</h3>
-                <div class="project-item">
-                    <h4>🚍 Aloya.cy</h4>
-                    <p>A unified, bilingual mobility operating system for Cyprus to plan journeys, track real-time bus timetables, and simplify commuting.</p>
-                </div>
-                <div class="project-item">
-                    <h4>🌱 Vuneli.com</h4>
-                    <p>An AI-powered sustainability reporting and footprint analysis platform designed specifically for Mediterranean SMEs.</p>
-                </div>
-            </div>
+            <!-- Web Development Resources Card -->
+            <section class="card resources-card">
+                <h3>Web Resources</h3>
+                <p>Helpful resources and documentation I use during this course:</p>
+                <ul class="resource-list">
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN HTML Reference</a> - Comprehensive guide to semantic HTML elements.</li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener">MDN CSS Guide</a> - Layouts, Flexbox, CSS Grid, and responsive design.</li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener">JavaScript Basics</a> - DOM manipulation, events, and dynamic content.</li>
+                </ul>
+            </section>
 
-            <!-- Cyprus Card -->
-            <div class="card location-card">
+            <!-- Location Card -->
+            <section class="card location-card">
                 <h3>Nicosia, Cyprus</h3>
-                <p>Nicosia (Lefkosia) is the historic, vibrant capital of Cyprus and the only remaining divided capital city in the world. It merges a rich cultural history with a rapidly expanding digital and tech ecosystem.</p>
+                <p>Nicosia is the capital and largest city of Cyprus, located near the center of the Mesaoria plain on the banks of the Pedieos river.</p>
                 <ul class="info-list">
                     <li><strong>Country:</strong> Cyprus</li>
-                    <li><strong>Language:</strong> Greek, Turkish, English</li>
-                    <li><strong>Climate:</strong> Mediterranean (Hot, dry summers and mild winters)</li>
-                    <li><strong>AI Target:</strong> Cyprus is actively positioning itself as a major global hub for AI and digital innovation.</li>
+                    <li><strong>Region:</strong> Mediterranean</li>
+                    <li><strong>Climate:</strong> Semi-arid with hot, dry summers and mild winters</li>
+                    <li><strong>Highlights:</strong> Ancient Venetian walls, historic Old Town, and vibrant university culture</li>
                 </ul>
-            </div>
+            </section>
         </section>
     </main>
 
