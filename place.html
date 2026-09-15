@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131: Country Page - Cyprus</title>
+    <meta name="description" content="Discover Cyprus: explore geographical facts, population, climate, and live weather conditions of this historic Mediterranean island.">
+    <meta name="author" content="Samuel Adu-Berekorang">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Cyprus</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 550px)">
+                <img src="images/hero-small.webp" alt="Scenic panoramic landscape of Cyprus" width="500" height="320">
+            </picture>
+            <section class="card data-card">
+                <h2>Data</h2>
+                <ul class="info-list">
+                    <li><span class="label">Area:</span> <span class="val">9,251 sq km</span></li>
+                    <li><span class="label">Population:</span> <span class="val">1,250,000</span></li>
+                    <li><span class="label">Capital:</span> <span class="val">Nicosia</span></li>
+                    <li><span class="label">Languages:</span> <span class="val">Greek, Turkish, English</span></li>
+                    <li><span class="label">Currency:</span> <span class="val">Euro (€)</span></li>
+                    <li><span class="label">Time Zone:</span> <span class="val">UTC+2 (EET)</span></li>
+                    <li><span class="label">Calling Code:</span> <span class="val">+357</span></li>
+                    <li><span class="label">Internet TLD:</span> <span class="val">.cy</span></li>
+                </ul>
+            </section>
+            <section class="card weather-card">
+                <h2>Weather</h2>
+                <div class="weather-icon-box">
+                    <img src="images/weather.svg" alt="Partly cloudy weather icon" class="weather-icon-mobile" width="64" height="64">
+                </div>
+                <ul class="info-list">
+                    <li><span class="label">Temperature:</span> <span class="val" id="temp">10 °C</span></li>
+                    <li><span class="label">Conditions:</span> <span class="val">Partly Cloudy</span></li>
+                    <li><span class="label">Wind:</span> <span class="val" id="wind">10 km/h</span></li>
+                    <li><span class="label">Wind Chill:</span> <span class="val" id="windchill"></span></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌸 Samuel Adu-Berekorang 🌸 Cyprus</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
