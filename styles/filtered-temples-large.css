@@ -1,0 +1,39 @@
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+  }
+
+  .header-content {
+    margin-bottom: 0;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    margin-top: 0;
+    gap: 0.5rem;
+  }
+
+  .navigation a {
+    border-bottom: none;
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+  }
+
+  .temple-grid {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+
+  main {
+    padding: 2rem;
+  }
+}
